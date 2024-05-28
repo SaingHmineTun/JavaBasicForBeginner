@@ -33,3 +33,17 @@ public class Lesson14_StringClass {
         System.out.println(contains);
     }
 }
+/*
+Home Work
+String email = "test@gmail.com"
+int password = 1234;
+
+please enter your email
+email => sc.next()
+please enter your password
+password => sc.nextInt()
+email = email
+password = password
+if true -> Login success!
+if false -> Login failed!
+ */
