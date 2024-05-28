@@ -1,5 +1,8 @@
 package org.example;
-
+/*
+Work like assignment operators
+Syntax - boolean ? trueValue : falseValue
+ */
 public class Lesson13_TernaryOperator {
     public static void main(String[] args) {
         boolean isMale = false;

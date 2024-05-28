@@ -1,6 +1,11 @@
 package org.example;
-
-public class Lesson4_IntegerDataTypes {
+/*
+Integer Data Type
+byte, shor, int, long
+Floating Data Type
+float, double
+ */
+public class Lesson4_NumberDataTypes {
 
     public static void main(String[] args) {
         float f = 123.45f;
