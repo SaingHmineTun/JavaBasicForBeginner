@@ -5,12 +5,9 @@ Syntax - boolean ? trueValue : falseValue
  */
 public class Lesson13_TernaryOperator {
     public static void main(String[] args) {
-        boolean isMale = false;
-        boolean isEven = 9 % 2 == 0;
-        // boolean ? valueTrue : valueFalse;
+        boolean isMale = true;
         String name = isMale ? "Mr" : "Mrs";
-        int number = isEven ? 0 : 1;
-        System.out.println(number);
+        System.out.println(name);
     }
 }
 
