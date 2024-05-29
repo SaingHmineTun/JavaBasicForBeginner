@@ -47,3 +47,10 @@ password = password
 if true -> Login success!
 if false -> Login failed!
  */
+
+/*
+Home Work String
+Input burmese consonants
+က - ka
+စစရက - SaSaRaKa
+ */

@@ -12,11 +12,11 @@ There exists 3 types of logical operators
     - false || true = true
     - false || false = false
 3) NOT (!)
+    - !true = false
+    - !false = true
  */
 public class Lesson12_LogicalOperator {
     public static void main(String[] args) {
-
         System.out.println(true && false && true && true);
-
     }
 }
