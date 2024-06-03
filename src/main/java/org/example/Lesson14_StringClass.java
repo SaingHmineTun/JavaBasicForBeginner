@@ -52,5 +52,5 @@ if false -> Login failed!
 Home Work String
 Input burmese consonants
 က - ka
-စစရက - SaSaRaKa
+ဂဃနဏ - GaGaNaNa
  */
