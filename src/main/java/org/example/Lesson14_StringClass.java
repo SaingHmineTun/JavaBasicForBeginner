@@ -15,6 +15,8 @@ Some of String methods
     check if one string start with another string
 - endsWith()
     check if one string start with another string
+- contains()
+    check if one string contains another string
  */
 public class Lesson14_StringClass {
     public static void main(String[] args) {
