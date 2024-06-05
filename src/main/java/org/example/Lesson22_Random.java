@@ -9,6 +9,7 @@ public class Lesson22_Random {
         System.out.println(number);
     }
 }
+
 /*
 Roll Dice App
 # Start Loop
