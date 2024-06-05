@@ -1,5 +1,11 @@
 package org.example;
 
+/*
+Do while loop
+Just like while loop, do-while loop also uses while keyword
+But it places its loop body above the conditional statement
+That's why, do-while loop will work at least one time no matter what the initial condition is
+ */
 public class Lesson23_Do_While_Loop {
     public static void main(String[] args) {
 
