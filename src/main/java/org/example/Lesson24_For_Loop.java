@@ -35,7 +35,7 @@ public class Lesson24_For_Loop {
 }
 
 /*
-5
+
 *
 **
 ***
