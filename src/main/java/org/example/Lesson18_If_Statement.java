@@ -13,7 +13,7 @@ public class Lesson18_If_Statement {
         System.out.println("Please enter your student grade!");
         int studentGrade = scanner.nextInt();
 
-        if (studentGrade <= 4) {
+        if (studentGrade >= 1 && studentGrade <= 4) {
             System.out.println("#######################");
             System.out.println("Go to primary school!");
             System.out.println("#######################");
