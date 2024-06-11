@@ -30,7 +30,6 @@ public class Lesson24_For_Loop {
         for (int a = 1; a <= 10; a++, a++) {
             System.out.println(a);
         }
-
     }
 }
 
