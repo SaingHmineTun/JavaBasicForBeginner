@@ -1,8 +1,29 @@
 package org.example.HomeWork_ClassAndObject;
 
 public class Hero {
-    String name;
-    String description;
+    private String name;
+    private String description;
+
+    public Hero(String name, String description) {
+        this.name = name;
+        this.description = description;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public String getDescription() {
+        return description;
+    }
 }
 /*
     hero1 - Nick the Night and Day
