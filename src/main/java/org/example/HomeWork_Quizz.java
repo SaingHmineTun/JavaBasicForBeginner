@@ -17,7 +17,4 @@ for (List of Quizz) {
  answers[index] = true;
  index ++;
 }
-
-
-
  */
