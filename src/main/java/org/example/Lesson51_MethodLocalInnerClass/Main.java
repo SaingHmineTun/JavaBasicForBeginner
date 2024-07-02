@@ -11,6 +11,8 @@ public class Main {
                 System.out.println("KeKeKe");
             }
         }
+        Chicken ch1 = new Chicken();
+        Chicken ch2 = new Chicken();
         speak(new Chicken());
 
     }
