@@ -2,32 +2,33 @@ package org.example.Lesson67_List;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Vector;
 
 // CRUD => Create, Read, Update, Delete
-public class ArrayListExercise {
+public class VectorExercise {
     public static void main(String[] args) {
-        List<String> list = new ArrayList<>();
+        Vector<String> list = new Vector<>(); // Upcasting
         // Add new element into List
-        list.add("Sai");
-        list.add("Mao");
+        list.addElement("Sai");
+        list.addElement("Mao");
         list.add("From");
         list.add("Namkham");
-        list.add(2, ",");
+        list.insertElementAt(",", 2);
         System.out.println("Size : " + list.size());
 
         // Read element from List
-        System.out.println("First index : " + list.get(0));
+        System.out.println("First index : " + list.elementAt(0));
         System.out.println("Last index : " + list.get(list.size() - 1));
 
         // Update element in List
-        list.set(list.size() - 1, "Muse");
+        list.setElementAt("Muse", list.size() - 1);
         for (String str : list) {
             System.out.print(str + " ");
         }
         System.out.println();
 
         // Remove element in list
-        list.remove(2); // remove by index
+        list.removeElementAt(2); // remove by index
         list.remove("Muse"); // remove by element
         System.out.println("Size : " + list.size());
 

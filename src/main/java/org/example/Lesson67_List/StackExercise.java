@@ -2,11 +2,12 @@ package org.example.Lesson67_List;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Stack;
 
 // CRUD => Create, Read, Update, Delete
-public class ArrayListExercise {
+public class StackExercise {
     public static void main(String[] args) {
-        List<String> list = new ArrayList<>();
+        Stack<String> list = new Stack<>();
         // Add new element into List
         list.add("Sai");
         list.add("Mao");
@@ -17,7 +18,7 @@ public class ArrayListExercise {
 
         // Read element from List
         System.out.println("First index : " + list.get(0));
-        System.out.println("Last index : " + list.get(list.size() - 1));
+        System.out.println("Last index : " + list.peek());
 
         // Update element in List
         list.set(list.size() - 1, "Muse");
@@ -27,9 +28,17 @@ public class ArrayListExercise {
         System.out.println();
 
         // Remove element in list
-        list.remove(2); // remove by index
+        String lastElement = list.pop(); // remove by index
         list.remove("Muse"); // remove by element
         System.out.println("Size : " + list.size());
+
+        int index = list.search("From");
+
+        for (String str : list) {
+            System.out.print(str + " ");
+        }
+        System.out.println();
+        System.out.println("Search Mao - " + index);
 
         System.out.println(list.contains("Sai"));
 
